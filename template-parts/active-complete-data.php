@@ -18,6 +18,7 @@
         <div class="auction-tabcontent">
           <div class="auction-tabcontent-list">
                <div class="auction-tabcontent-wraper">
+                    
                     <?php foreach($url_sorted_data_active as $active_auction_data){
                          $auction_id = $active_auction_data['id']; 
                          $auction_name = $active_auction_data['name'];
